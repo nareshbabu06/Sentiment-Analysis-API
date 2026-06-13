@@ -1,0 +1,54 @@
+{
+  "trained_at": "2026-06-12T19:08:13.511702+00:00",
+  "model_type": "LogisticRegression",
+  "dataset": {
+    "source": "built-in-default",
+    "total_samples": 76,
+    "class_distribution": {
+      "1": 38,
+      "0": 38
+    }
+  },
+  "vectorizer": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "sublinear_tf": true
+  },
+  "evaluation": {
+    "accuracy": 0.9375,
+    "macro_f1": 0.9373,
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "1": {
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8.0
+      },
+      "accuracy": 0.9375,
+      "macro avg": {
+        "precision": 0.9444444444444444,
+        "recall": 0.9375,
+        "f1-score": 0.9372549019607843,
+        "support": 16.0
+      },
+      "weighted avg": {
+        "precision": 0.9444444444444444,
+        "recall": 0.9375,
+        "f1-score": 0.9372549019607843,
+        "support": 16.0
+      }
+    }
+  },
+  "deployment": {
+    "refit_on_full_dataset": true
+  }
+}
