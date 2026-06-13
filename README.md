@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sentiment Analysis API
 
 A FastAPI-based sentiment analysis REST API with PostgreSQL storage, JWT authentication, Docker support, and unit tests.
@@ -100,3 +101,7 @@ Important variables:
 - `JWT_SECRET`
 - `CORS_ORIGINS` as a comma-separated list when you have multiple frontends
 - `WEB_CONCURRENCY` to scale Uvicorn workers
+=======
+# Sentiment-Analysis-API
+A FastAPI-based machine learning application that performs real-time sentiment analysis on text using NLP techniques and a Logistic Regression model. Features model training, prediction APIs, input validation, and deployment-ready architecture.
+>>>>>>> 4d5b695c2c44a7d91c91c7d8cf7606a4a86997b4
